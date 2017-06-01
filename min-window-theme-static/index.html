@@ -11,10 +11,15 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script>
+          if (screen.width <= 560){
+            document.location = "mobile.html";
+          }
+        </script>
     </head>
     <body>
       <div class="row1-4">
-        <section class="block1-3" style="background: url(https://api.adorable.io/avatars/285/b.png) no-repeat center/100% 100%">
+        <section class="block1-3" style="background: url(https://api.adorable.io/avatars/285/b.png) no-repeat center/100% 100%;">
           <h2>Tittle</h2>
 
           <div class="button"><a class="button" href="#">Read More</a></div>
