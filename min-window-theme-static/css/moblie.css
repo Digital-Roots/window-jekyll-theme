@@ -87,7 +87,7 @@ p{
   margin-left: 24%;
   margin-top: -22%
 }
-nav{
+#nav{
   background-color: black;
   height: auto;
   max-height: auto;
@@ -97,6 +97,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  visibility: hidden;
 }
 .email{
   flex-flow: nowrap;
@@ -104,31 +105,31 @@ nav{
   margin: 0;
   padding: 0;
 }
-nav .button{
+#nav .button{
   display: inline-flex;
   flex-flow: row wrap-reverse;
   margin: 0;
   padding: 0;
   color: grey;
 }
-nav .button-prev{
+#nav .button-prev{
   display: inline-block;
   flex-shrink: ;
   padding: 15px;
   margin-left: ;
 }
-nav .button-next{
+#nav .button-next{
   display: inline-block;
   padding: 15px;
   margin-right: 0;
 }
-nav p{
+#nav p{
   font-size: 36px;
   color: grey;
   margin: 0;
   padding: 0;
 }
-nav .nav-ui{
+#nav .nav-ui{
   display: inline-flex;
   flex-flow: row wrap;
   padding: 0;
